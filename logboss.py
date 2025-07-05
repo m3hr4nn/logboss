@@ -5,7 +5,7 @@ Professional Log Parser
 A robust, scalable log parsing utility for extracting specific commands
 from system log files with support for multiple compression formats.
 
-Author: m3hr4nn
+Author: Claude.ai/m3hr4nn
 Version: 2.0.0
 License: MIT
 """
