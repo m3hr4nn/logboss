@@ -24,8 +24,8 @@ This suite contains three log parsing utilities, each designed for different use
 
 ```bash
 # Clone or download the scripts
-git clone <repository-url>
-cd log-parser-suite
+git clone https://github.com/m3hr4nn/logboss.git
+cd logboss
 
 # Make scripts executable
 chmod +x logpatrol.py logboss.py ulogboss.py
