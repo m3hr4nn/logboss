@@ -1,0 +1,682 @@
+# ==============================================================================
+# COMPREHENSIVE LOG COMMANDS LIST
+# ==============================================================================
+# This file contains a comprehensive list of commands commonly found in 
+# system logs that are useful for security monitoring, troubleshooting,
+# and system administration.
+#
+# Usage: Use this file with any of the log parsers:
+#   python3 logboss.py --command-file commands.txt
+#   python3 ulogboss.py commands.txt /var/log
+#
+# Categories are organized by function for easy customization
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# SYSTEM CONTROL & SERVICE MANAGEMENT
+# ------------------------------------------------------------------------------
+systemctl
+service
+systemd
+init
+start
+stop
+restart
+reload
+enable
+disable
+status
+daemon
+upstart
+sysvinit
+
+# ------------------------------------------------------------------------------
+# AUTHENTICATION & ACCESS CONTROL
+# ------------------------------------------------------------------------------
+sudo
+su
+login
+logout
+ssh
+sshd
+passwd
+shadow
+authentication
+authenticate
+authenticated
+authorization
+authorize
+authorized
+pam
+kerberos
+ldap
+sasl
+gssapi
+ticket
+principal
+realm
+
+# ------------------------------------------------------------------------------
+# USER & GROUP MANAGEMENT
+# ------------------------------------------------------------------------------
+useradd
+userdel
+usermod
+groupadd
+groupdel
+groupmod
+chown
+chmod
+chgrp
+chpasswd
+passwd
+adduser
+deluser
+addgroup
+delgroup
+wheel
+sudoers
+
+# ------------------------------------------------------------------------------
+# SYSTEM SHUTDOWN & REBOOT
+# ------------------------------------------------------------------------------
+shutdown
+reboot
+halt
+poweroff
+init
+telinit
+systemctl
+restart
+stop
+start
+
+# ------------------------------------------------------------------------------
+# NETWORK SERVICES & SECURITY
+# ------------------------------------------------------------------------------
+iptables
+ip6tables
+firewalld
+ufw
+netfilter
+nftables
+fail2ban
+denyhosts
+sshguard
+tcpwrappers
+xinetd
+inetd
+telnet
+ftp
+tftp
+rsh
+rlogin
+rexec
+
+# ------------------------------------------------------------------------------
+# WEB SERVERS
+# ------------------------------------------------------------------------------
+apache2
+httpd
+nginx
+lighttpd
+tomcat
+jetty
+gunicorn
+uwsgi
+mod_wsgi
+virtualhost
+ssl
+tls
+https
+http
+GET
+POST
+PUT
+DELETE
+404
+403
+500
+502
+503
+
+# ------------------------------------------------------------------------------
+# DATABASE SERVICES
+# ------------------------------------------------------------------------------
+mysql
+mysqld
+mariadb
+postgresql
+postgres
+mongodb
+mongod
+redis
+memcached
+elasticsearch
+solr
+oracle
+sqlserver
+sqlite
+database
+backup
+restore
+dump
+import
+export
+
+# ------------------------------------------------------------------------------
+# MAIL SERVICES
+# ------------------------------------------------------------------------------
+postfix
+sendmail
+exim
+dovecot
+cyrus
+qmail
+smtp
+pop3
+imap
+mail
+email
+queue
+bounce
+relay
+spam
+antispam
+clamav
+spamassassin
+amavis
+
+# ------------------------------------------------------------------------------
+# DNS SERVICES
+# ------------------------------------------------------------------------------
+named
+bind
+dig
+nslookup
+host
+resolver
+dnsmasq
+unbound
+powerdns
+zone
+record
+query
+lookup
+resolution
+
+# ------------------------------------------------------------------------------
+# BACKUP & STORAGE
+# ------------------------------------------------------------------------------
+rsync
+backup
+restore
+tar
+gzip
+gunzip
+zip
+unzip
+bzip2
+xz
+cpio
+dump
+dd
+cp
+mv
+rm
+mount
+umount
+fsck
+mkfs
+lvm
+raid
+mdadm
+
+# ------------------------------------------------------------------------------
+# MONITORING & LOGGING
+# ------------------------------------------------------------------------------
+syslog
+rsyslog
+syslog-ng
+journalctl
+logrotate
+cron
+crontab
+anacron
+at
+batch
+nagios
+zabbix
+icinga
+munin
+cacti
+snmp
+snmpd
+collectd
+telegraf
+prometheus
+grafana
+
+# ------------------------------------------------------------------------------
+# SECURITY & INTRUSION DETECTION
+# ------------------------------------------------------------------------------
+aide
+tripwire
+samhain
+chkrootkit
+rkhunter
+lynis
+tiger
+ossec
+suricata
+snort
+bro
+zeek
+nmap
+nessus
+openvas
+nikto
+sqlmap
+hydra
+john
+hashcat
+metasploit
+
+# ------------------------------------------------------------------------------
+# VIRTUALIZATION & CONTAINERS
+# ------------------------------------------------------------------------------
+docker
+podman
+containerd
+kubernetes
+kubectl
+kube-proxy
+kubelet
+kube-scheduler
+kube-controller
+etcd
+vagrant
+virtualbox
+vmware
+kvm
+qemu
+xen
+libvirt
+virsh
+lxc
+lxd
+
+# ------------------------------------------------------------------------------
+# NETWORK DIAGNOSTICS
+# ------------------------------------------------------------------------------
+ping
+traceroute
+netstat
+ss
+lsof
+tcpdump
+wireshark
+tshark
+nmap
+telnet
+nc
+netcat
+curl
+wget
+iperf
+mtr
+dig
+nslookup
+host
+whois
+
+# ------------------------------------------------------------------------------
+# SYSTEM PERFORMANCE & RESOURCES
+# ------------------------------------------------------------------------------
+top
+htop
+ps
+kill
+killall
+pkill
+pgrep
+jobs
+bg
+fg
+nohup
+screen
+tmux
+iostat
+vmstat
+sar
+free
+df
+du
+lsblk
+fdisk
+parted
+swapon
+swapoff
+ulimit
+
+# ------------------------------------------------------------------------------
+# FILE SYSTEM & PERMISSIONS
+# ------------------------------------------------------------------------------
+find
+locate
+which
+whereis
+file
+stat
+ls
+chmod
+chown
+chgrp
+umask
+setfacl
+getfacl
+lsattr
+chattr
+mount
+umount
+fsck
+tune2fs
+dumpe2fs
+blkid
+lsblk
+
+# ------------------------------------------------------------------------------
+# PACKAGE MANAGEMENT
+# ------------------------------------------------------------------------------
+apt
+apt-get
+aptitude
+dpkg
+yum
+dnf
+rpm
+zypper
+pacman
+emerge
+portage
+snap
+flatpak
+appimage
+pip
+gem
+npm
+composer
+cargo
+go
+
+# ------------------------------------------------------------------------------
+# SYSTEM INFORMATION
+# ------------------------------------------------------------------------------
+uname
+hostname
+hostnamectl
+uptime
+who
+w
+users
+last
+lastb
+lastlog
+id
+groups
+finger
+pinky
+whoami
+logname
+tty
+env
+printenv
+lscpu
+lsmem
+lsusb
+lspci
+lsmod
+dmesg
+journalctl
+systemctl
+
+# ------------------------------------------------------------------------------
+# DEVELOPMENT & DEBUGGING
+# ------------------------------------------------------------------------------
+git
+svn
+cvs
+make
+gcc
+g++
+clang
+python
+python3
+java
+javac
+php
+ruby
+perl
+node
+npm
+yarn
+maven
+gradle
+ant
+cmake
+gdb
+strace
+ltrace
+valgrind
+
+# ------------------------------------------------------------------------------
+# ARCHIVE & COMPRESSION
+# ------------------------------------------------------------------------------
+tar
+gzip
+gunzip
+bzip2
+bunzip2
+xz
+unxz
+zip
+unzip
+7z
+rar
+unrar
+compress
+uncompress
+zcat
+bzcat
+xzcat
+
+# ------------------------------------------------------------------------------
+# PRINTING & HARDWARE
+# ------------------------------------------------------------------------------
+lp
+lpr
+lpq
+lprm
+cups
+cupsd
+lpstat
+lpadmin
+printer
+print
+spool
+usb
+serial
+parallel
+bluetooth
+wifi
+wireless
+ethernet
+modem
+
+# ------------------------------------------------------------------------------
+# CLOUD & ORCHESTRATION
+# ------------------------------------------------------------------------------
+aws
+azure
+gcloud
+terraform
+ansible
+puppet
+chef
+saltstack
+consul
+vault
+nomad
+packer
+vagrant
+helm
+istio
+linkerd
+envoy
+nginx-ingress
+traefik
+
+# ------------------------------------------------------------------------------
+# CUSTOM APPLICATION COMMANDS
+# ------------------------------------------------------------------------------
+# Add your specific application commands here
+# Example:
+# myapp
+# customservice
+# application-name
+# service-name
+
+# ------------------------------------------------------------------------------
+# SECURITY EVENTS & FAILURES
+# ------------------------------------------------------------------------------
+failed
+failure
+error
+denied
+unauthorized
+forbidden
+invalid
+illegal
+violation
+attack
+intrusion
+breach
+malware
+virus
+trojan
+rootkit
+suspicious
+anomaly
+alert
+warning
+critical
+emergency
+
+# ------------------------------------------------------------------------------
+# PRIVILEGE ESCALATION
+# ------------------------------------------------------------------------------
+escalate
+privilege
+elevated
+administrator
+root
+superuser
+setuid
+setgid
+sticky
+capabilities
+acl
+selinux
+apparmor
+grsecurity
+pax
+
+# ------------------------------------------------------------------------------
+# NETWORK ATTACKS & EVENTS
+# ------------------------------------------------------------------------------
+ddos
+dos
+flood
+scan
+probe
+brute
+force
+dictionary
+rainbow
+injection
+xss
+csrf
+sqli
+rfi
+lfi
+path
+traversal
+overflow
+buffer
+heap
+stack
+rop
+shellcode
+
+# ------------------------------------------------------------------------------
+# COMPLIANCE & AUDITING
+# ------------------------------------------------------------------------------
+audit
+auditd
+compliance
+pci
+hipaa
+sox
+gdpr
+iso27001
+nist
+cis
+benchmark
+baseline
+hardening
+security
+policy
+violation
+exception
+approval
+workflow
+
+# ------------------------------------------------------------------------------
+# INCIDENT RESPONSE
+# ------------------------------------------------------------------------------
+incident
+response
+forensic
+investigation
+evidence
+timeline
+indicator
+compromise
+ioc
+hash
+signature
+pattern
+correlation
+analysis
+report
+remediation
+containment
+eradication
+recovery
+
+# ==============================================================================
+# END OF COMMANDS LIST
+# ==============================================================================
+# Total commands: 400+
+# 
+# CUSTOMIZATION TIPS:
+# - Comment out categories you don't need with #
+# - Add your specific application commands
+# - Use separate files for different monitoring scenarios
+# - Combine with regex patterns for more flexible matching
+#
+# PERFORMANCE NOTES:
+# - More commands = longer processing time
+# - Use specific command sets for targeted monitoring
+# - Consider splitting into separate files by category
+# ==============================================================================
