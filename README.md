@@ -1,6 +1,6 @@
 # Log Parser Suite 🚀
 
-A comprehensive collection of log parsing tools for extracting specific commands from system logs, ranging from basic functionality to enterprise-grade performance optimization.
+A comprehensive collection of log parsing tools for extracting specific commands from system logs, ranging from basic functionality to enterprise-grade performance optimization. Can be used as a handy tool during troubleshooting and system analyzing. 
 
 ## 📋 Overview
 
