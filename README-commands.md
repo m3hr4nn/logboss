@@ -1,3 +1,6 @@
+The `commands.txt` file contains a list of commands that the script will read and analyze against log entries. Each command is used to filter and extract relevant information from the logs for further processing and insights.
+
+
 📋 **Categories Included**
 
 🔧 **System Administration**
